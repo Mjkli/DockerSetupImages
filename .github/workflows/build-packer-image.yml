@@ -22,6 +22,6 @@ jobs:
         with:
           file: containers/packer/Dockerfile
           push: true
-          tags: mjkli/iac-terraform:latest
+          tags: mjkli/packer-aws:latest
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
