@@ -1,8 +1,9 @@
-name: Build terraform image 
+name: Build terraform image
 on:
   push:
     paths:
       - containers/terraform/Dockerfile
+      - .github/workflows/build-tf-image.yml
 jobs:
   build:
     name: build docker image
