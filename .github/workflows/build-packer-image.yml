@@ -1,4 +1,4 @@
-name: Build packer image
+name: Build packer image 
 on:
   push:
     paths:
