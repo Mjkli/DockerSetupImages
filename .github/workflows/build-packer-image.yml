@@ -2,7 +2,7 @@ name: Build packer image
 on:
   push:
     paths:
-      - containers/terraform/Dockerfile
+      - containers/packer/Dockerfile
       - .github/workflows/build-packer-image.yml
 jobs:
   build:
